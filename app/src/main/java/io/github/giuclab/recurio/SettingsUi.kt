@@ -84,18 +84,53 @@ val SuccessGreen=Color(0xFF16875C)
       HorizontalDivider(color=Border,modifier=Modifier.padding(horizontal=16.dp))
       SettingAction(t("about"),onClick={about=true})
      }}
-     item {Column(Modifier.fillMaxWidth(),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.spacedBy(4.dp)) {
-      Text("Recurio v0.1.0-alpha09 — © 2026 GiuClab",fontSize=11.sp,color=Muted)
-      Text("Made with ❤️ by GiuClab",fontSize=11.sp,color=Muted)
+     item {Column(Modifier.fillMaxWidth(),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.spacedBy(2.dp)) {
+      Text("Recurio v${BuildConfig.VERSION_NAME} — © 2026 GiuClab",fontSize=11.sp,lineHeight=16.sp,color=Muted)
+      Text("Made with ❤️ by GiuClab",fontSize=11.sp,lineHeight=16.sp,color=Muted)
      }}
     }
    }
   }
  }
  if(detail!=null) AlertDialog(onDismissRequest={detail=null},title={Text(t(if(detail=="privacy")"privacyDetails" else "reminder"))},text={Text(if(detail=="privacy")t("privacy")+"\n\n"+t("iconsHelp") else t("timing"),modifier=Modifier.verticalScroll(rememberScrollState()),fontSize=14.sp)},confirmButton={TextButton(onClick={detail=null}){Text(t("close"))}})
- if(about) AlertDialog(onDismissRequest={about=false},title={Text(t("about"))},text={Column(Modifier.verticalScroll(rememberScrollState()),verticalArrangement=Arrangement.spacedBy(10.dp)) {
-  Image(painterResource(R.drawable.ic_launcher),null,Modifier.size(48.dp));Text("Recurio v0.1.0-alpha09",fontWeight=FontWeight.Bold);Text(t("tagline"));Text(t("alpha"),fontSize=12.sp,color=Muted)
-  TextButton(onClick=onRepository){Text("GitHub")};TextButton(onClick=onFeedback){Text(t("feedback"))};TextButton(onClick=onSupport){Text(t("support"))};TextButton(onClick=onLicenses){Text(t("iconLicense"))}
-  Text("© 2026 GiuClab · Made with ❤️ by GiuClab",fontSize=11.sp,color=Muted)
- }},confirmButton={TextButton(onClick={about=false}){Text(t("close"))}})
+ if(about) AlertDialog(
+  onDismissRequest={about=false},
+  title={Text(t("about"),fontSize=20.sp,lineHeight=26.sp,fontWeight=FontWeight.SemiBold)},
+  text={Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState())) {
+   Row(verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.spacedBy(12.dp)) {
+    Image(painterResource(R.drawable.ic_launcher),null,Modifier.size(48.dp))
+    Column(verticalArrangement=Arrangement.spacedBy(2.dp)) {
+     Text("Recurio",fontSize=18.sp,lineHeight=22.sp,fontWeight=FontWeight.Bold)
+     Text("${t("versionLabel")} ${BuildConfig.VERSION_NAME}",fontSize=13.sp,lineHeight=18.sp,color=Muted)
+    }
+   }
+   Spacer(Modifier.height(12.dp))
+   Text(t("tagline"),fontSize=14.sp,lineHeight=20.sp)
+   Spacer(Modifier.height(4.dp))
+   Text(t("appInfo"),fontSize=12.sp,lineHeight=18.sp,color=Muted)
+   Spacer(Modifier.height(12.dp))
+   HorizontalDivider(color=Border)
+   Column {
+    AboutLink("GitHub",onRepository)
+    AboutLink(t("feedback"),onFeedback)
+    AboutLink(t("support"),onSupport)
+    AboutLink(t("iconLicense"),onLicenses)
+   }
+   HorizontalDivider(color=Border)
+   Spacer(Modifier.height(12.dp))
+   Text("© 2026 GiuClab",fontSize=11.sp,lineHeight=16.sp,color=Muted)
+   Text("Made with ❤️ by GiuClab",fontSize=11.sp,lineHeight=16.sp,color=Muted)
+  }},
+  confirmButton={TextButton(onClick={about=false}){Text(t("close"))}}
+ )
+}
+
+@Composable private fun AboutLink(label:String,onClick:()->Unit) {
+ TextButton(
+  onClick=onClick,
+  modifier=Modifier.fillMaxWidth().heightIn(min=48.dp),
+  contentPadding=PaddingValues(horizontal=0.dp,vertical=8.dp)
+ ) {
+  Text(label,modifier=Modifier.fillMaxWidth(),fontSize=14.sp,lineHeight=20.sp)
+ }
 }

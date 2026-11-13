@@ -2,8 +2,8 @@ plugins { id("com.android.application"); id("org.jetbrains.kotlin.android"); id(
 android {
     namespace = "io.github.giuclab.recurio"
     compileSdk = 35
-    defaultConfig { applicationId = "io.github.giuclab.recurio"; minSdk = 26; targetSdk = 35; versionCode = 9; versionName = "0.1.0-alpha09" }
-    buildFeatures { compose = true }
+    defaultConfig { applicationId = "io.github.giuclab.recurio"; minSdk = 26; targetSdk = 35; versionCode = 10; versionName = "1.0" }
+    buildFeatures { compose = true; buildConfig = true }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
 }

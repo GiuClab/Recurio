@@ -178,7 +178,7 @@ class MainActivity: ComponentActivity() {
        }
       }
      }
-     item { Text("Recurio v0.1.0-alpha09 — © 2026 GiuClab", color = Muted, fontSize = 11.sp) }
+     item { Text("Recurio v${BuildConfig.VERSION_NAME} — © 2026 GiuClab", color = Muted, fontSize = 11.sp, lineHeight = 16.sp) }
     }
    }
   }
