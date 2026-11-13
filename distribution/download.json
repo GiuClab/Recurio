@@ -2,11 +2,12 @@
   "title": "Recurio v1.0",
   "tag": "v1.0",
   "filename": "Recurio-v1.0.apk",
-  "run_id": 43498312426,
-  "artifact_id": 14072962620,
-  "source_commit": "a84c65403c52ec38ac101d27d9c1b26cd090a08e",
-  "sha256": "cf42c0edb5c123ab81b1100c4720d39f1130d2d9ba2ba500d93955032597e90f",
-  "internal_version": "0.1.0-alpha09",
-  "internal_version_code": 9,
-  "signing": "GitHub Actions debug signing; different from the earlier alpha APK"
+  "run_id": 43503461603,
+  "artifact_id": 14074338995,
+  "source_commit": "05138ac0f6073d1d9e9c67431bbdfdaef76ccaea",
+  "sha256": "ae6ad561c669ac065cd634ba99462b3cb31a53ee4c2e5e28a3a50857ef52fd31",
+  "internal_version": "1.0",
+  "internal_version_code": 10,
+  "signing": "GitHub Actions debug signing; different from the earlier alpha APK",
+  "previous_tag_commit": "c7079f23d3c15c9c3ea6f79cdc69e65eb81c9292"
 }

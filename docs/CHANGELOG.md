@@ -1,3 +1,9 @@
+# Version 1.0 — About dialog update
+
+- Internal version 1.0, versionCode 10; displayed version labels read automatically from BuildConfig.
+- Compact About dialog with logo and version header, tighter text spacing, accessible links and compact footer. Removed preview label in all four languages.
+- No changes to payment management, reminders, backup or other screens except displayed version labels and footer line spacing.
+
 # v1.0 — GitHub download label
 
 - APK download renamed to `Recurio-v1.0.apk`; internal app version, screens and text unchanged.

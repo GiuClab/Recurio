@@ -13,7 +13,7 @@
 [Italiano](docs/README.it.md) · [Deutsch](docs/README.de.md) · [Français](docs/README.fr.md)
 </div>
 
-Recurio is a free, open source Android payment planner with local reminders. The current download is **Recurio-v1.0.apk**, with service images and amounts in payment notifications. The release label is v1.0; the internal app version and in-app text remain unchanged. This APK is still debug-signed; see installation details below. F-Droid publication is planned; no official listing exists yet. Current UI screenshots will be added after device verification; no mockup is presented as an app screenshot.
+Recurio is a free, open source Android payment planner with local reminders. The current download is **Recurio-v1.0.apk**, with service images and amounts in payment notifications. The app now displays version 1.0 throughout, with a more compact About dialog. This APK is still debug-signed; see installation details below. F-Droid publication is planned; no official listing exists yet. Current UI screenshots will be added after device verification; no mockup is presented as an app screenshot.
 
 ## Features
 - 🗓 Add, edit, pause and delete payments with one-time, weekly, monthly, quarterly or yearly recurrence.
@@ -36,7 +36,7 @@ External GitHub and Ko-fi actions open the browser and follow those services' ow
 ## Install and signing
 Download [Recurio-v1.0.apk](https://github.com/GiuClab/Recurio/releases/download/v1.0/Recurio-v1.0.apk) from [GitHub Releases](https://github.com/GiuClab/Recurio/releases/tag/v1.0) and open it on Android 8 or later. The release includes `SHA256SUMS.txt`.
 
-Only payment notifications changed in the app. The filename and GitHub release use v1.0; the existing internal version (`0.1.0-alpha09`, code 9), screens and in-app text are preserved. This is the exact APK built and checked by [GitHub Actions run 43498312426](https://github.com/GiuClab/Recurio/actions/runs/43498312426), renamed without modifying its bytes. It is debug-signed, not production-signed.
+The app uses version 1.0 (versionCode 10). Version labels are read automatically from the build configuration. The About dialog groups the logo and version together, uses compact text spacing and keeps accessible link targets. Payment notifications retain their amount, currency and service image. Other app behavior is unchanged. The APK is debug-signed, not production-signed; the exact verified build is recorded in [download notes](distribution/DOWNLOAD_NOTES.md).
 
 Its certificate differs from the earlier alpha APK. If Android rejects installation over that version, export any saved records before uninstalling, install the new APK and restore the backup. If no payment records have been entered, no payment backup is needed. Keep signing keys outside Git; a production signing identity is still needed for long-term distribution. See [download notes](distribution/DOWNLOAD_NOTES.md).
 

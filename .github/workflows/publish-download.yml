@@ -53,9 +53,12 @@ jobs:
           title=$(jq -r .title distribution/download.json)
           [[ "$tag" =~ ^v[0-9]+\.[0-9]+(\.[0-9]+)?$ ]]
           if gh release view "$tag" > /dev/null 2>&1; then
-            mkdir existing
-            gh release download "$tag" --pattern "$filename" --dir existing
-            cmp "$filename" "existing/$filename"
+            expected_tag=$(jq -r .previous_tag_commit distribution/download.json)
+            current_tag=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$tag" --jq .object.sha)
+            [[ "$current_tag" == "$expected_tag" || "$current_tag" == "$GITHUB_SHA" ]]
+            gh release upload "$tag" "$filename" SHA256SUMS.txt --clobber
+            gh api --method PATCH "repos/$GITHUB_REPOSITORY/git/refs/tags/$tag" -f sha="$GITHUB_SHA" -F force=true
+            gh release edit "$tag" --title "$title" --notes-file distribution/DOWNLOAD_NOTES.md --latest
           else
             gh release create "$tag" "$filename" SHA256SUMS.txt --target "$GITHUB_SHA" --latest --title "$title" --notes-file distribution/DOWNLOAD_NOTES.md
           fi

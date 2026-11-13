@@ -1,7 +1,7 @@
 # Recurio — by GiuClab
 Tutti i pagamenti, in un posto. Anteprima Android 8+, gratuita e open source, GPL-3.0-or-later.
 
-Scarica [Recurio-v1.0.apk](https://github.com/GiuClab/Recurio/releases/download/v1.0/Recurio-v1.0.apk). Le notifiche includono icona, importo e valuta. v1.0 è il nome del download: la versione interna e le scritte nell’app restano invariate. L’APK usa una firma debug diversa dalla precedente: se Android rifiuta l’aggiornamento, salva gli eventuali dati prima di disinstallare la vecchia app. [Dettagli](../distribution/DOWNLOAD_NOTES.md).
+Scarica [Recurio-v1.0.apk](https://github.com/GiuClab/Recurio/releases/download/v1.0/Recurio-v1.0.apk). Le notifiche includono icona, importo e valuta. La versione interna è 1.0. La finestra “Informazioni su Recurio” ha testi più compatti e logo e versione affiancati. L’APK usa una firma debug diversa dalla precedente: se Android rifiuta l’aggiornamento, salva gli eventuali dati prima di disinstallare la vecchia app. [Dettagli](../distribution/DOWNLOAD_NOTES.md).
 
 
 ## Disponibile nella prima alpha

@@ -2,15 +2,15 @@
 
 Download **Recurio-v1.0.apk** for Android 8 or later.
 
-Payment reminders now display the amount, currency and service image. Bundled or cached logos are used when available; otherwise the payment initial is shown. Receiving a reminder does not start a website request. Other app screens and behavior are unchanged.
+- The app now displays version **1.0** consistently on the main screen, Settings and About. Version labels come from the build configuration (versionCode 10).
+- The About dialog has a compact logo/version header, tighter text spacing, grouped links with accessible touch targets, and a smaller footer. The preview label has been removed in all four languages.
+- Payment reminders retain their amount, currency and service image. Other screens and payment, backup and reminder behavior are unchanged.
 
-Unit tests, Android lint and APK build passed on GitHub Actions. Notification appearance still needs verification on a phone.
+Unit tests, Android lint and APK build passed on GitHub Actions run 43503461603, from source 05138ac0f6073d1d9e9c67431bbdfdaef76ccaea. The downloaded APK manifest was checked: versionName 1.0, versionCode 10. The final appearance still needs verification on a phone.
 
-**Package details:** v1.0 is the download/release label. The APK contents, internal version label (`0.1.0-alpha09`, code 9) and in-app text have not been changed beyond the notification update. This APK uses the GitHub Actions debug signing certificate, not a production signing identity. Renaming it does not change that.
+The file uses the GitHub Actions debug signing certificate, not a production signing identity. A new build may use a different certificate. If Android rejects installation over the earlier APK, export any saved records before uninstalling it, then install this file and restore the backup. If no records have been entered, no payment backup is needed.
 
-If Android rejects installation over the earlier APK because the signatures differ, export any payment records before uninstalling the old app, then install this file and restore the backup. If no records have been entered, no payment backup is needed.
-
-The APK is the exact file built by workflow run 43498312426 from source a84c65403c52ec38ac101d27d9c1b26cd090a08e, renamed without altering its bytes. SHA256SUMS.txt provides the checksum.
+SHA256SUMS.txt contains the APK checksum. The v1.0 download has been replaced with this updated build, and the tag points to the matching source and publication metadata.
 
 No F-Droid listing is available yet.
 
