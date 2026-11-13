@@ -85,7 +85,7 @@ val SuccessGreen=Color(0xFF16875C)
       SettingAction(t("about"),onClick={about=true})
      }}
      item {Column(Modifier.fillMaxWidth(),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.spacedBy(4.dp)) {
-      Text("Recurio v0.1.0-alpha09 — © 2026 GiuClab",fontSize=11.sp,color=Muted)
+      Text("Recurio v${BuildConfig.VERSION_NAME} — © 2026 GiuClab",fontSize=11.sp,color=Muted)
       Text("Made with ❤️ by GiuClab",fontSize=11.sp,color=Muted)
      }}
     }
@@ -94,7 +94,7 @@ val SuccessGreen=Color(0xFF16875C)
  }
  if(detail!=null) AlertDialog(onDismissRequest={detail=null},title={Text(t(if(detail=="privacy")"privacyDetails" else "reminder"))},text={Text(if(detail=="privacy")t("privacy")+"\n\n"+t("iconsHelp") else t("timing"),modifier=Modifier.verticalScroll(rememberScrollState()),fontSize=14.sp)},confirmButton={TextButton(onClick={detail=null}){Text(t("close"))}})
  if(about) AlertDialog(onDismissRequest={about=false},title={Text(t("about"))},text={Column(Modifier.verticalScroll(rememberScrollState()),verticalArrangement=Arrangement.spacedBy(10.dp)) {
-  Image(painterResource(R.drawable.ic_launcher),null,Modifier.size(48.dp));Text("Recurio v0.1.0-alpha09",fontWeight=FontWeight.Bold);Text(t("tagline"));Text(t("alpha"),fontSize=12.sp,color=Muted)
+  Image(painterResource(R.drawable.ic_launcher),null,Modifier.size(48.dp));Text("Recurio v${BuildConfig.VERSION_NAME}",fontWeight=FontWeight.Bold);Text(t("tagline"));Text(t("appInfo"),fontSize=12.sp,color=Muted)
   TextButton(onClick=onRepository){Text("GitHub")};TextButton(onClick=onFeedback){Text(t("feedback"))};TextButton(onClick=onSupport){Text(t("support"))};TextButton(onClick=onLicenses){Text(t("iconLicense"))}
   Text("© 2026 GiuClab · Made with ❤️ by GiuClab",fontSize=11.sp,color=Muted)
  }},confirmButton={TextButton(onClick={about=false}){Text(t("close"))}})

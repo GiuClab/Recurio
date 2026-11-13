@@ -1,0 +1,2 @@
+1.0.0
+Les rappels affichent montant, devise et icône du service ou initiale du paiement.

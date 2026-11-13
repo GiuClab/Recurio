@@ -39,7 +39,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.time.*
 import java.time.format.DateTimeFormatter
-import java.text.NumberFormat
 import java.util.*
 
 val Blue = Color(0xFF385AD0)
@@ -178,7 +177,7 @@ class MainActivity: ComponentActivity() {
        }
       }
      }
-     item { Text("Recurio v0.1.0-alpha09 — © 2026 GiuClab", color = Muted, fontSize = 11.sp) }
+     item { Text("Recurio v${BuildConfig.VERSION_NAME} — © 2026 GiuClab", color = Muted, fontSize = 11.sp) }
     }
    }
   }
@@ -340,4 +339,3 @@ class MainActivity: ComponentActivity() {
  }
 }
 fun dateFormat(lang: String): DateTimeFormatter = DateTimeFormatter.ofLocalizedDate(java.time.format.FormatStyle.MEDIUM).withLocale(Locale.forLanguageTag(lang))
-fun money(cents: Long, currency: String, lang: String): String = NumberFormat.getCurrencyInstance(Locale.forLanguageTag(lang)).apply { this.currency = Currency.getInstance(currency) }.format(java.math.BigDecimal.valueOf(cents, 2))

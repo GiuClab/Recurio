@@ -1,3 +1,10 @@
+# 1.0.0 — prepared, not yet published
+
+- Reminders include localized amount, explicit currency and bundled/cached service image or payment initial.
+- In-app version labels use BuildConfig; removed preview branding.
+- Production signing workflow produces Recurio-1.0.0.apk and verifies the expected certificate.
+- Signing setup, device checks and stable publication remain required.
+
 # 0.1.0-alpha09
 
 - Logo approvato integrato nella launcher Android adattiva, nella home, nella guida e nelle informazioni.

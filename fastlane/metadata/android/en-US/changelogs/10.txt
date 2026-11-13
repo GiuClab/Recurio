@@ -1,0 +1,2 @@
+1.0.0
+Reminders show the amount, currency and a service logo or payment initial.

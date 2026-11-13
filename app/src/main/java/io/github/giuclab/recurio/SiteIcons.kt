@@ -32,10 +32,18 @@ object SiteIcons {
    }
   } finally { c.disconnect() }
  }
- fun load(ctx: Context, host: String): Bitmap? = runCatching {
-  val cache = File(ctx.cacheDir, "icons").apply { mkdirs() }
+ private fun cacheFile(ctx: Context, host: String): File {
   val key = MessageDigest.getInstance("SHA-256").digest(host.toByteArray()).joinToString("") { "%02x".format(it) }
-  val file = File(cache, "$key.png")
+  return File(File(ctx.cacheDir, "icons"), "$key.png")
+ }
+ /** Disk only; safe to use from a reminder without contacting a website. */
+ fun cached(ctx: Context, host: String): Bitmap? = runCatching {
+  val file = cacheFile(ctx, host)
+  if (file.isFile) BitmapFactory.decodeFile(file.path) else null
+ }.getOrNull()
+ fun load(ctx: Context, host: String): Bitmap? = runCatching {
+  val file = cacheFile(ctx, host)
+  file.parentFile?.mkdirs()
   if (file.exists()) return@runCatching BitmapFactory.decodeFile(file.path)
   val base = URL("https://$host/")
   val html = download(base, host, 262144)?.toString(Charsets.UTF_8).orEmpty()

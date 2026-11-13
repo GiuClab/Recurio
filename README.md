@@ -4,22 +4,22 @@
   <p>Your payments, in one place — by GiuClab</p>
 
 [![Android](https://img.shields.io/badge/Android-8%2B-16875C)](#features)
-[![Stage](https://img.shields.io/badge/stage-0.1.0--alpha09-385AD0)](https://github.com/GiuClab/Recurio/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0-385AD0)](https://github.com/GiuClab/Recurio/releases)
 [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-385AD0)](LICENSE)
 [![Android checks](https://github.com/GiuClab/Recurio/actions/workflows/android.yml/badge.svg)](https://github.com/GiuClab/Recurio/actions/workflows/android.yml)
 
-[Download previews](https://github.com/GiuClab/Recurio/releases) · [Feedback & suggestions](https://github.com/GiuClab/Recurio/issues/new/choose) · [Support on Ko-fi](https://ko-fi.com/giuclab/tip)
+[Downloads](https://github.com/GiuClab/Recurio/releases) · [Feedback & suggestions](https://github.com/GiuClab/Recurio/issues/new/choose) · [Support on Ko-fi](https://ko-fi.com/giuclab/tip)
 
 [Italiano](docs/README.it.md) · [Deutsch](docs/README.de.md) · [Français](docs/README.fr.md)
 </div>
 
-Recurio is a free, open source Android payment planner with local reminders. **This is an alpha preview, not a stable release.** F-Droid publication is planned; no official listing exists yet. Current UI screenshots will be added after device verification; no mockup is presented as an app screenshot.
+Recurio is a free, open source Android payment planner with local reminders. The source is prepared for the first stable release, **1.0.0**. Production signing, device verification and publication must be completed before a stable APK is available; see [release preparation](distribution/STABLE_RELEASE.md). F-Droid publication is planned; no official listing exists yet. Current UI screenshots will be added after device verification; no mockup is presented as an app screenshot.
 
 ## Features
 - 🗓 Add, edit, pause and delete payments with one-time, weekly, monthly, quarterly or yearly recurrence.
 - 💶 Calendar-month totals and next-12-month forecasts, separated by currency. No automatic exchange conversion or bank charge verification.
 - 🔗 Share a browser link to Recurio, paste it or select a service from the searchable 145-entry catalog. Editable name suggestions recognize domains and known product paths.
-- 🔔 Optional local reminders with 0–365 days of advance notice and chosen time. Singular/plural reminder text in all four languages. Android may delay notifications to save battery.
+- 🔔 Optional local reminders with amount, currency and a bundled/cached service logo (or payment initial), 0–365 days of advance notice and chosen time. Singular/plural reminder text in all four languages. Android may delay notifications to save battery.
 - 🔐 Password-encrypted manual export and restore. Restore previews the record count and replaces existing payments only after confirmation.
 - 🌍 Automatic supported phone language on first install; otherwise an English chooser for English, Italian, German or French. Six-step guide, replayable in Settings.
 - 💬 GitHub feedback/suggestions, Ko-fi support, and Share/Copy download-page link. Sharing the app link does not share payments or personal data.
@@ -34,9 +34,9 @@ Backup files use AES-256-GCM and PBKDF2-HMAC-SHA256. Minimum password: 5 charact
 External GitHub and Ko-fi actions open the browser and follow those services' own privacy policies. No feedback is submitted automatically. F-Droid is marked as coming soon, with no invented app link.
 
 ## Install and signing
-Download an APK from [GitHub Releases](https://github.com/GiuClab/Recurio/releases) and confirm installation in Android. Alpha09 uses the same debug preview certificate as alpha08 for upgrade compatibility. It is not a production signing identity. The private key is not in this repository. Establish and back up a production signing key before a stable distribution; F-Droid signing/reproducibility must also be planned. Export your records before moving to a differently signed build.
+Stable release naming: `Recurio-1.0.0.apk`, GitHub tag `v1.0.0`, release title `Recurio 1.0.0`, without the pre-release flag. The stable build workflow requires production signing secrets and verifies the expected certificate before providing an APK and checksum. See [signing, alpha migration and publication](distribution/STABLE_RELEASE.md).
 
-The preview publication workflow attaches the exact locally verified, compatible APK using a checksum-identified Git blob; it separately runs source checks on GitHub. The workflow's newly generated debug APK has its own key and is not substituted for the compatible preview. See [publication details](distribution/RELEASE_NOTES.md).
+Alpha09 used a development certificate. A differently signed stable build requires exporting an encrypted backup before uninstalling the alpha, installing the stable app and restoring the backup. Private signing keys must remain outside this repository. Historical alpha releases and their verification reports remain available; they do not verify version 1.0.0.
 
 ## Build and verification
 Use a FLOSS JDK 17, Android SDK platform 35 and Build Tools 35.0.0:
