@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.giuclab.recurio.ModelTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2026-11-13T19:27:18" hostname="ef9ca2a50e36" time="0.091">
+  <properties/>
+  <testcase name="legacyDomainsAndFormerNamesRemainSearchable" classname="io.github.giuclab.recurio.ModelTest" time="0.005"/>
+  <testcase name="sortingKeepsAllDistinctRecordsAndHandlesMissingService" classname="io.github.giuclab.recurio.ModelTest" time="0.018"/>
+  <testcase name="localizedServiceLinksAndSpecificSubdomainsTakePriority" classname="io.github.giuclab.recurio.ModelTest" time="0.002"/>
+  <testcase name="unsafeSchemesAndCredentialsRejected" classname="io.github.giuclab.recurio.ModelTest" time="0.001"/>
+  <testcase name="uppercaseAndProtocolRelativeLinks" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="recognizesOnlyRealDomain" classname="io.github.giuclab.recurio.ModelTest" time="0.001"/>
+  <testcase name="serviceSortGroupsMultipleNetflixPaymentsInDateOrder" classname="io.github.giuclab.recurio.ModelTest" time="0.006"/>
+  <testcase name="monthEndKeepsAnchor" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="suspendedHasNoReminder" classname="io.github.giuclab.recurio.ModelTest" time="0.004"/>
+  <testcase name="everyCatalogEntryHasDistinctIdNameAndWorkingPublicLink" classname="io.github.giuclab.recurio.ModelTest" time="0.03"/>
+  <testcase name="allCatalogCategoriesHaveTranslations" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="amountsRejectCommaScientificAndGrouping" classname="io.github.giuclab.recurio.ModelTest" time="0.002"/>
+  <testcase name="oneOffDoesNotRepeat" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="bareNetflixLinkIsAccepted" classname="io.github.giuclab.recurio.ModelTest" time="0.009"/>
+  <testcase name="relatedAppleProductsRemainDistinct" classname="io.github.giuclab.recurio.ModelTest" time="0.001"/>
+  <testcase name="leapYearKeepsAnchor" classname="io.github.giuclab.recurio.ModelTest" time="0.001"/>
+  <testcase name="extractsBrowserShare" classname="io.github.giuclab.recurio.ModelTest" time="0.001"/>
+  <testcase name="barePortAndMalformedDomains" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="normalizedLinkPreservesSecretsAndEscapesWithoutAlteration" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="explicitUnsafeSchemesNeverBecomeHttps" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="pathBoundariesAndQueriesNeverInventAPlan" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="remindersSkipPastButNotFuture" classname="io.github.giuclab.recurio.ModelTest" time="0.003"/>
+  <testcase name="totalsStaySeparateForEachCurrency" classname="io.github.giuclab.recurio.ModelTest" time="0.001"/>
+  <testcase name="dueSortUsesNearestFutureOccurrenceNotOriginalAnchor" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="wholeCurrencyAmountsDoNotGetRoundedSilently" classname="io.github.giuclab.recurio.ModelTest" time="0.001"/>
+  <testcase name="allLanguagesCoverKeys" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="totalsCountActualOccurrences" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="amazonProductsStayDistinctOnRegionalDomains" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <testcase name="exactCents" classname="io.github.giuclab.recurio.ModelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

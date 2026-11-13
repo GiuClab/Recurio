@@ -1,0 +1,1164 @@
+[
+  {
+    "service_id": "netflix",
+    "name": "Netflix",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://brand.netflix.com/en/assets/logos",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "prime-video",
+    "name": "Prime Video",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "disney-plus",
+    "name": "Disney+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "hbo-max",
+    "name": "HBO Max",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://commons.wikimedia.org/wiki/File:Max_2025_logo.svg",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "youtube-premium",
+    "name": "YouTube Premium",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "paramount-plus",
+    "name": "Paramount+",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.paramount.com/brand/paramount-plus",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "apple-tv-plus",
+    "name": "Apple TV+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "hulu",
+    "name": "Hulu",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "peacock",
+    "name": "Peacock",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "crunchyroll",
+    "name": "Crunchyroll",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.crunchyroll.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "dazn",
+    "name": "DAZN",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://media.dazn.com/en/assets/",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "now",
+    "name": "NOW",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.nowtv.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "sky",
+    "name": "Sky",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.skysports.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "discovery-plus",
+    "name": "Discovery+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "jiohotstar",
+    "name": "JioHotstar",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "tencent-video",
+    "name": "Tencent Video",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "iqiyi",
+    "name": "iQIYI",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "mubi",
+    "name": "MUBI",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://mubi.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "twitch",
+    "name": "Twitch",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://brand.twitch.tv",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "spotify",
+    "name": "Spotify",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "apple-music",
+    "name": "Apple Music",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.apple.com/itunes/marketing-on-music/identity-guidelines.html#apple-music-icon",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "amazon-music",
+    "name": "Amazon Music",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "youtube-music",
+    "name": "YouTube Music",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://partnermarketinghub.withgoogle.com/#/brands",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "audible",
+    "name": "Audible",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://commons.wikimedia.org/wiki/File:Audible_logo.svg",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "tidal",
+    "name": "TIDAL",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://tidal.com/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "deezer",
+    "name": "Deezer",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://deezerbrand.com/document/37#/-/logo",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "soundcloud",
+    "name": "SoundCloud",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://press.soundcloud.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "siriusxm",
+    "name": "SiriusXM",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "storytel",
+    "name": "Storytel",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "playstation-plus",
+    "name": "PlayStation Plus",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "xbox-game-pass",
+    "name": "Xbox Game Pass",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "nintendo-switch-online",
+    "name": "Nintendo Switch Online",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "ea-play",
+    "name": "EA Play",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "ubisoft-plus",
+    "name": "Ubisoft+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "world-of-warcraft",
+    "name": "World of Warcraft",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "final-fantasy-xiv",
+    "name": "Final Fantasy XIV",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "roblox-premium",
+    "name": "Roblox Premium",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "fortnite-crew",
+    "name": "Fortnite Crew",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "geforce-now",
+    "name": "GeForce NOW",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "discord-nitro",
+    "name": "Discord Nitro",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "icloud-plus",
+    "name": "iCloud+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "google-one",
+    "name": "Google One",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "microsoft-365",
+    "name": "Microsoft 365",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "adobe-creative-cloud",
+    "name": "Adobe Creative Cloud",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "canva-pro",
+    "name": "Canva Pro",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "dropbox",
+    "name": "Dropbox",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.dropbox.com/branding",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "1password",
+    "name": "1Password",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://1password.com/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "dashlane",
+    "name": "Dashlane",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://brandfolder.com/dashlane/brandkitpartners",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "bitwarden",
+    "name": "Bitwarden",
+    "status": "Official trademark guidelines require written permission for logos; not bundled",
+    "metadata_source": "https://bitwarden.com/brand",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "nordpass",
+    "name": "NordPass",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "evernote",
+    "name": "Evernote",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://evernote.com/about-us",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "notion",
+    "name": "Notion",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.notion.so",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "zoom",
+    "name": "Zoom",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://brand.zoom.us/media-library/",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "slack",
+    "name": "Slack",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "shopify",
+    "name": "Shopify",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.shopify.com/brand-assets",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "wix",
+    "name": "Wix",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.wix.com/about/design-assets",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "squarespace",
+    "name": "Squarespace",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.squarespace.com/logo-guidelines",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "chatgpt",
+    "name": "ChatGPT",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "claude",
+    "name": "Claude",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://claude.ai",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "google-ai-gemini",
+    "name": "Google AI / Gemini",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "midjourney",
+    "name": "Midjourney",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "github-copilot",
+    "name": "GitHub Copilot",
+    "status": "MIT confirmed; bundled",
+    "metadata_source": "https://primer.style/foundations/icons/copilot-24",
+    "metadata_license": {
+      "type": "MIT"
+    },
+    "bundled": true
+  },
+  {
+    "service_id": "perplexity",
+    "name": "Perplexity",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.perplexity.ai",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "grammarly",
+    "name": "Grammarly",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.grammarly.com/media-assets",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "amazon-prime",
+    "name": "Amazon Prime",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "walmart-plus",
+    "name": "Walmart+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "uber-one",
+    "name": "Uber One",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "doordash-dashpass",
+    "name": "DoorDash DashPass",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "deliveroo-plus",
+    "name": "Deliveroo Plus",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "glovo-prime",
+    "name": "Glovo Prime",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "instacart-plus",
+    "name": "Instacart+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "hellofresh",
+    "name": "HelloFresh",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.hellofreshgroup.com/en/newsroom/press-material/brand",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "chewy-autoship",
+    "name": "Chewy Autoship",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "dollar-shave-club",
+    "name": "Dollar Shave Club",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "the-new-york-times",
+    "name": "The New York Times",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "the-wall-street-journal",
+    "name": "The Wall Street Journal",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "the-washington-post",
+    "name": "The Washington Post",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.washingtonpost.com/brand-studio/archive/",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "the-economist",
+    "name": "The Economist",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "financial-times",
+    "name": "Financial Times",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "substack",
+    "name": "Substack",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://on.substack.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "patreon",
+    "name": "Patreon",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.patreon.com/brand",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "onlyfans",
+    "name": "OnlyFans",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://onlyfans.com/brand",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "medium",
+    "name": "Medium",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://medium.design/logos-and-brand-guidelines-f1a01a733592",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "kindle-unlimited",
+    "name": "Kindle Unlimited",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "everand",
+    "name": "Everand",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "scribd",
+    "name": "Scribd",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "super-duolingo",
+    "name": "Super Duolingo",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "babbel",
+    "name": "Babbel",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "coursera-plus",
+    "name": "Coursera Plus",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "masterclass",
+    "name": "MasterClass",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "skillshare",
+    "name": "Skillshare",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.skillshare.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "linkedin-premium",
+    "name": "LinkedIn Premium",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "strava",
+    "name": "Strava",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://itunes.apple.com/us/app/strava-running-and-cycling-gps/id426826309",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "peloton",
+    "name": "Peloton",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://press.onepeloton.com/#logos",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "apple-fitness-plus",
+    "name": "Apple Fitness+",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "headspace",
+    "name": "Headspace",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.headspace.com/press-and-media",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "calm",
+    "name": "Calm",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "myfitnesspal",
+    "name": "MyFitnessPal",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "nordvpn",
+    "name": "NordVPN",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://nordvpn.com/press-area/",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "expressvpn",
+    "name": "ExpressVPN",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.expressvpn.com/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "surfshark",
+    "name": "Surfshark",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://surfshark.com/press/assets",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "tinder",
+    "name": "Tinder",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.gotinder.com/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "bumble",
+    "name": "Bumble",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "hinge",
+    "name": "Hinge",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "ring",
+    "name": "Ring",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://store.ring.com/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "x",
+    "name": "X",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://x.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "youtube",
+    "name": "YouTube",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "amazon",
+    "name": "Amazon",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "apple",
+    "name": "Apple",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.apple.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "google",
+    "name": "Google",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://partnermarketinghub.withgoogle.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "microsoft",
+    "name": "Microsoft",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "adobe",
+    "name": "Adobe",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "canva",
+    "name": "Canva",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "github",
+    "name": "GitHub",
+    "status": "MIT confirmed; bundled",
+    "metadata_source": "https://github.com/logos",
+    "metadata_license": null,
+    "bundled": true
+  },
+  {
+    "service_id": "playstation",
+    "name": "PlayStation",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.playstation.com/en-us/",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "xbox",
+    "name": "Xbox",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "nintendo",
+    "name": "Nintendo",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "ea",
+    "name": "EA",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.ea.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "ubisoft",
+    "name": "Ubisoft",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.ubisoft.com/en-US/company/overview.aspx",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "roblox",
+    "name": "Roblox",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.roblox.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "fortnite",
+    "name": "Fortnite",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.fortnite.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "nvidia",
+    "name": "NVIDIA",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.nvidia.com/en-us",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "discord",
+    "name": "Discord",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://discord.com/branding",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "walmart",
+    "name": "Walmart",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "uber",
+    "name": "Uber",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/151",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "doordash",
+    "name": "DoorDash",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.doordash.com/about/",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "deliveroo",
+    "name": "Deliveroo",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://deliveroo.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "instacart",
+    "name": "Instacart",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.instacart.com/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "coursera",
+    "name": "Coursera",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://about.coursera.org/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "linkedin",
+    "name": "LinkedIn",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "duolingo",
+    "name": "Duolingo",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://design.duolingo.com",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "proton",
+    "name": "Proton",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://proton.me/media/kit",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "mullvad",
+    "name": "Mullvad",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://mullvad.net/press#logos",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "figma",
+    "name": "Figma",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://www.figma.com/using-the-figma-brand/",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "todoist",
+    "name": "Todoist",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://doist.com/press",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "ko-fi",
+    "name": "Ko-fi",
+    "status": "No explicit redistribution license found in inspected metadata; not bundled",
+    "metadata_source": "https://more.ko-fi.com/brand-assets",
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "spliiit",
+    "name": "Spliiit",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "sharesub",
+    "name": "Sharesub",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "diveedi",
+    "name": "Diveedi",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "gosplit",
+    "name": "GoSplit",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "sharingful",
+    "name": "Sharingful",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "gamsgo",
+    "name": "GamsGo",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "coosub",
+    "name": "Coosub",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "goingbus",
+    "name": "GoingBus",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  },
+  {
+    "service_id": "togetherprice",
+    "name": "Togetherprice",
+    "status": "Not verified; not bundled",
+    "metadata_source": null,
+    "metadata_license": null,
+    "bundled": false
+  }
+]

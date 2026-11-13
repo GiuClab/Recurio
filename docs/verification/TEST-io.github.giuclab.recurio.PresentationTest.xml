@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.giuclab.recurio.PresentationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-13T19:27:18" hostname="ef9ca2a50e36" time="0.02">
+  <properties/>
+  <testcase name="manuallyTypedLinkUsesTheSameCatalogAsSharedLinks" classname="io.github.giuclab.recurio.PresentationTest" time="0.0"/>
+  <testcase name="pluralAdvanceInAllFourLanguagesAndZero" classname="io.github.giuclab.recurio.PresentationTest" time="0.006"/>
+  <testcase name="unknownDomainGetsCapitalizedNameWithoutSuffixOrSubdomain" classname="io.github.giuclab.recurio.PresentationTest" time="0.007"/>
+  <testcase name="nineNewPlatformsAreRecognized" classname="io.github.giuclab.recurio.PresentationTest" time="0.004"/>
+  <testcase name="personalizedNamesArePreservedButAutomaticNamesCanChange" classname="io.github.giuclab.recurio.PresentationTest" time="0.0"/>
+  <testcase name="singularAdvanceInAllFourLanguages" classname="io.github.giuclab.recurio.PresentationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

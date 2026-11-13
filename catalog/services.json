@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "category": "video",
+    "rules": [
+      "netflix.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "prime-video",
+    "name": "Prime Video",
+    "category": "video",
+    "rules": [
+      "primevideo.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "disney-plus",
+    "name": "Disney+",
+    "category": "video",
+    "rules": [
+      "disneyplus.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "hbo-max",
+    "name": "HBO Max",
+    "category": "video",
+    "rules": [
+      "hbomax.com",
+      "max.com"
+    ],
+    "aliases": [
+      "Max"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "youtube-premium",
+    "name": "YouTube Premium",
+    "category": "video",
+    "rules": [
+      "youtube.com/premium"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "paramount-plus",
+    "name": "Paramount+",
+    "category": "video",
+    "rules": [
+      "paramountplus.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "apple-tv-plus",
+    "name": "Apple TV+",
+    "category": "video",
+    "rules": [
+      "tv.apple.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "hulu",
+    "name": "Hulu",
+    "category": "video",
+    "rules": [
+      "hulu.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "peacock",
+    "name": "Peacock",
+    "category": "video",
+    "rules": [
+      "peacocktv.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "crunchyroll",
+    "name": "Crunchyroll",
+    "category": "video",
+    "rules": [
+      "crunchyroll.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "dazn",
+    "name": "DAZN",
+    "category": "video",
+    "rules": [
+      "dazn.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "now",
+    "name": "NOW",
+    "category": "video",
+    "rules": [
+      "nowtv.com",
+      "nowtv.it"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "sky",
+    "name": "Sky",
+    "category": "video",
+    "rules": [
+      "sky.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "discovery-plus",
+    "name": "Discovery+",
+    "category": "video",
+    "rules": [
+      "discoveryplus.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "jiohotstar",
+    "name": "JioHotstar",
+    "category": "video",
+    "rules": [
+      "hotstar.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "tencent-video",
+    "name": "Tencent Video",
+    "category": "video",
+    "rules": [
+      "v.qq.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "iqiyi",
+    "name": "iQIYI",
+    "category": "video",
+    "rules": [
+      "iq.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "mubi",
+    "name": "MUBI",
+    "category": "video",
+    "rules": [
+      "mubi.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "category": "video",
+    "rules": [
+      "twitch.tv"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "category": "audio",
+    "rules": [
+      "spotify.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "apple-music",
+    "name": "Apple Music",
+    "category": "audio",
+    "rules": [
+      "music.apple.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "amazon-music",
+    "name": "Amazon Music",
+    "category": "audio",
+    "rules": [
+      "music.amazon.com",
+      "music.amazon.it",
+      "music.amazon.de",
+      "music.amazon.fr"
+    ],
+    "aliases": [
+      "Amazon Music Unlimited"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "youtube-music",
+    "name": "YouTube Music",
+    "category": "audio",
+    "rules": [
+      "music.youtube.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "audible",
+    "name": "Audible",
+    "category": "audio",
+    "rules": [
+      "audible.com",
+      "audible.it"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "tidal",
+    "name": "TIDAL",
+    "category": "audio",
+    "rules": [
+      "tidal.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "deezer",
+    "name": "Deezer",
+    "category": "audio",
+    "rules": [
+      "deezer.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "soundcloud",
+    "name": "SoundCloud",
+    "category": "audio",
+    "rules": [
+      "soundcloud.com"
+    ],
+    "aliases": [
+      "SoundCloud Go+"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "siriusxm",
+    "name": "SiriusXM",
+    "category": "audio",
+    "rules": [
+      "siriusxm.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "storytel",
+    "name": "Storytel",
+    "category": "audio",
+    "rules": [
+      "storytel.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "playstation-plus",
+    "name": "PlayStation Plus",
+    "category": "gaming",
+    "rules": [
+      "playstation.com/ps-plus"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "xbox-game-pass",
+    "name": "Xbox Game Pass",
+    "category": "gaming",
+    "rules": [
+      "xbox.com/xbox-game-pass"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "nintendo-switch-online",
+    "name": "Nintendo Switch Online",
+    "category": "gaming",
+    "rules": [
+      "nintendo.com/switch/online",
+      "nintendo.it/switch/online"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "ea-play",
+    "name": "EA Play",
+    "category": "gaming",
+    "rules": [
+      "ea.com/ea-play"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "ubisoft-plus",
+    "name": "Ubisoft+",
+    "category": "gaming",
+    "rules": [
+      "store.ubisoft.com/ubisoftplus"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "world-of-warcraft",
+    "name": "World of Warcraft",
+    "category": "gaming",
+    "rules": [
+      "worldofwarcraft.blizzard.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "final-fantasy-xiv",
+    "name": "Final Fantasy XIV",
+    "category": "gaming",
+    "rules": [
+      "finalfantasyxiv.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "roblox-premium",
+    "name": "Roblox Premium",
+    "category": "gaming",
+    "rules": [
+      "roblox.com/premium/membership"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "fortnite-crew",
+    "name": "Fortnite Crew",
+    "category": "gaming",
+    "rules": [
+      "fortnite.com/fortnite-crew-subscription"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "geforce-now",
+    "name": "GeForce NOW",
+    "category": "gaming",
+    "rules": [
+      "nvidia.com/geforce-now"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "discord-nitro",
+    "name": "Discord Nitro",
+    "category": "gaming",
+    "rules": [
+      "discord.com/nitro"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "icloud-plus",
+    "name": "iCloud+",
+    "category": "cloud",
+    "rules": [
+      "icloud.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "google-one",
+    "name": "Google One",
+    "category": "cloud",
+    "rules": [
+      "one.google.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "microsoft-365",
+    "name": "Microsoft 365",
+    "category": "cloud",
+    "rules": [
+      "microsoft.com/microsoft-365"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "adobe-creative-cloud",
+    "name": "Adobe Creative Cloud",
+    "category": "cloud",
+    "rules": [
+      "adobe.com/creativecloud"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "canva-pro",
+    "name": "Canva Pro",
+    "category": "cloud",
+    "rules": [
+      "canva.com/pro"
+    ],
+    "aliases": [
+      "Canva"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "category": "cloud",
+    "rules": [
+      "dropbox.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "1password",
+    "name": "1Password",
+    "category": "cloud",
+    "rules": [
+      "1password.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "dashlane",
+    "name": "Dashlane",
+    "category": "cloud",
+    "rules": [
+      "dashlane.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "category": "cloud",
+    "rules": [
+      "bitwarden.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "nordpass",
+    "name": "NordPass",
+    "category": "cloud",
+    "rules": [
+      "nordpass.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote",
+    "category": "cloud",
+    "rules": [
+      "evernote.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "cloud",
+    "rules": [
+      "notion.so",
+      "notion.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "category": "cloud",
+    "rules": [
+      "zoom.us"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "cloud",
+    "rules": [
+      "slack.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "category": "cloud",
+    "rules": [
+      "shopify.com",
+      "myshopify.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "wix",
+    "name": "Wix",
+    "category": "cloud",
+    "rules": [
+      "wix.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "squarespace",
+    "name": "Squarespace",
+    "category": "cloud",
+    "rules": [
+      "squarespace.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "ai",
+    "rules": [
+      "chatgpt.com"
+    ],
+    "aliases": [
+      "ChatGPT Plus",
+      "ChatGPT Pro",
+      "OpenAI"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "ai",
+    "rules": [
+      "claude.ai"
+    ],
+    "aliases": [
+      "Claude Pro",
+      "Anthropic"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "google-ai-gemini",
+    "name": "Google AI / Gemini",
+    "category": "ai",
+    "rules": [
+      "gemini.google.com"
+    ],
+    "aliases": [
+      "Google AI Pro",
+      "Gemini Advanced"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "category": "ai",
+    "rules": [
+      "midjourney.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "category": "ai",
+    "rules": [
+      "github.com/features/copilot"
+    ],
+    "aliases": [],
+    "icon_status": "bundled-MIT",
+    "icon_source": "https://github.com/primer/octicons",
+    "icon_license": "MIT"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "category": "ai",
+    "rules": [
+      "perplexity.ai"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "category": "ai",
+    "rules": [
+      "grammarly.com"
+    ],
+    "aliases": [
+      "Grammarly Premium"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "amazon-prime",
+    "name": "Amazon Prime",
+    "category": "shopping",
+    "rules": [
+      "amazon.com/prime",
+      "amazon.it/prime",
+      "amazon.de/prime",
+      "amazon.fr/prime",
+      "amazon.com/gp/prime",
+      "amazon.it/gp/prime",
+      "amazon.de/gp/prime",
+      "amazon.fr/gp/prime"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "walmart-plus",
+    "name": "Walmart+",
+    "category": "shopping",
+    "rules": [
+      "walmart.com/plus"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "uber-one",
+    "name": "Uber One",
+    "category": "shopping",
+    "rules": [
+      "uber.com/uber-one"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "doordash-dashpass",
+    "name": "DoorDash DashPass",
+    "category": "shopping",
+    "rules": [
+      "doordash.com/dashpass"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "deliveroo-plus",
+    "name": "Deliveroo Plus",
+    "category": "shopping",
+    "rules": [
+      "deliveroo.co.uk/plus"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "glovo-prime",
+    "name": "Glovo Prime",
+    "category": "shopping",
+    "rules": [
+      "glovoapp.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "instacart-plus",
+    "name": "Instacart+",
+    "category": "shopping",
+    "rules": [
+      "instacart.com/instacart-plus"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "hellofresh",
+    "name": "HelloFresh",
+    "category": "shopping",
+    "rules": [
+      "hellofresh.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "chewy-autoship",
+    "name": "Chewy Autoship",
+    "category": "shopping",
+    "rules": [
+      "chewy.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "dollar-shave-club",
+    "name": "Dollar Shave Club",
+    "category": "shopping",
+    "rules": [
+      "dollarshaveclub.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "the-new-york-times",
+    "name": "The New York Times",
+    "category": "publishing",
+    "rules": [
+      "nytimes.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "the-wall-street-journal",
+    "name": "The Wall Street Journal",
+    "category": "publishing",
+    "rules": [
+      "wsj.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "the-washington-post",
+    "name": "The Washington Post",
+    "category": "publishing",
+    "rules": [
+      "washingtonpost.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "the-economist",
+    "name": "The Economist",
+    "category": "publishing",
+    "rules": [
+      "economist.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "financial-times",
+    "name": "Financial Times",
+    "category": "publishing",
+    "rules": [
+      "ft.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "substack",
+    "name": "Substack",
+    "category": "publishing",
+    "rules": [
+      "substack.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "patreon",
+    "name": "Patreon",
+    "category": "publishing",
+    "rules": [
+      "patreon.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "onlyfans",
+    "name": "OnlyFans",
+    "category": "publishing",
+    "rules": [
+      "onlyfans.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "category": "publishing",
+    "rules": [
+      "medium.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "kindle-unlimited",
+    "name": "Kindle Unlimited",
+    "category": "publishing",
+    "rules": [
+      "amazon.com/kindleunlimited",
+      "amazon.it/kindleunlimited",
+      "amazon.de/kindleunlimited",
+      "amazon.fr/kindleunlimited"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "everand",
+    "name": "Everand",
+    "category": "publishing",
+    "rules": [
+      "everand.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "scribd",
+    "name": "Scribd",
+    "category": "publishing",
+    "rules": [
+      "scribd.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "super-duolingo",
+    "name": "Super Duolingo",
+    "category": "learning",
+    "rules": [
+      "join.duolingo.com/plus",
+      "duolingo.com/plus",
+      "duolingo.com/super"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "babbel",
+    "name": "Babbel",
+    "category": "learning",
+    "rules": [
+      "babbel.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "coursera-plus",
+    "name": "Coursera Plus",
+    "category": "learning",
+    "rules": [
+      "coursera.org/courseraplus"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "masterclass",
+    "name": "MasterClass",
+    "category": "learning",
+    "rules": [
+      "masterclass.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "skillshare",
+    "name": "Skillshare",
+    "category": "learning",
+    "rules": [
+      "skillshare.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "linkedin-premium",
+    "name": "LinkedIn Premium",
+    "category": "learning",
+    "rules": [
+      "linkedin.com/premium"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "strava",
+    "name": "Strava",
+    "category": "learning",
+    "rules": [
+      "strava.com"
+    ],
+    "aliases": [
+      "Strava Premium"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "peloton",
+    "name": "Peloton",
+    "category": "learning",
+    "rules": [
+      "onepeloton.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "apple-fitness-plus",
+    "name": "Apple Fitness+",
+    "category": "learning",
+    "rules": [
+      "apple.com/apple-fitness-plus"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "headspace",
+    "name": "Headspace",
+    "category": "learning",
+    "rules": [
+      "headspace.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "calm",
+    "name": "Calm",
+    "category": "learning",
+    "rules": [
+      "calm.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "myfitnesspal",
+    "name": "MyFitnessPal",
+    "category": "learning",
+    "rules": [
+      "myfitnesspal.com"
+    ],
+    "aliases": [
+      "MyFitnessPal Premium"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "nordvpn",
+    "name": "NordVPN",
+    "category": "security",
+    "rules": [
+      "nordvpn.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "expressvpn",
+    "name": "ExpressVPN",
+    "category": "security",
+    "rules": [
+      "expressvpn.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "surfshark",
+    "name": "Surfshark",
+    "category": "security",
+    "rules": [
+      "surfshark.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "tinder",
+    "name": "Tinder",
+    "category": "security",
+    "rules": [
+      "tinder.com"
+    ],
+    "aliases": [
+      "Tinder Plus",
+      "Tinder Gold"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "bumble",
+    "name": "Bumble",
+    "category": "security",
+    "rules": [
+      "bumble.com"
+    ],
+    "aliases": [
+      "Bumble Premium"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "hinge",
+    "name": "Hinge",
+    "category": "security",
+    "rules": [
+      "hinge.co"
+    ],
+    "aliases": [
+      "Hinge+"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "ring",
+    "name": "Ring",
+    "category": "security",
+    "rules": [
+      "ring.com"
+    ],
+    "aliases": [
+      "Ring Protect"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "x",
+    "name": "X",
+    "category": "security",
+    "rules": [
+      "x.com"
+    ],
+    "aliases": [
+      "X Premium",
+      "Twitter"
+    ],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "category": "other",
+    "rules": [
+      "youtube.com",
+      "youtu.be"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "category": "other",
+    "rules": [
+      "amazon.com",
+      "amazon.it",
+      "amazon.de",
+      "amazon.fr"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "other",
+    "rules": [
+      "apple.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "category": "other",
+    "rules": [
+      "google.com",
+      "google.it"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "category": "other",
+    "rules": [
+      "microsoft.com",
+      "office.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "category": "other",
+    "rules": [
+      "adobe.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "other",
+    "rules": [
+      "canva.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "category": "other",
+    "rules": [
+      "github.com"
+    ],
+    "aliases": [],
+    "icon_status": "bundled-MIT",
+    "icon_source": "https://github.com/primer/octicons",
+    "icon_license": "MIT"
+  },
+  {
+    "id": "playstation",
+    "name": "PlayStation",
+    "category": "other",
+    "rules": [
+      "playstation.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "xbox",
+    "name": "Xbox",
+    "category": "other",
+    "rules": [
+      "xbox.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "nintendo",
+    "name": "Nintendo",
+    "category": "other",
+    "rules": [
+      "nintendo.com",
+      "nintendo.it"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "ea",
+    "name": "EA",
+    "category": "other",
+    "rules": [
+      "ea.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "ubisoft",
+    "name": "Ubisoft",
+    "category": "other",
+    "rules": [
+      "ubisoft.com",
+      "store.ubisoft.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "category": "other",
+    "rules": [
+      "roblox.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "fortnite",
+    "name": "Fortnite",
+    "category": "other",
+    "rules": [
+      "fortnite.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "category": "other",
+    "rules": [
+      "nvidia.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "category": "other",
+    "rules": [
+      "discord.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "walmart",
+    "name": "Walmart",
+    "category": "other",
+    "rules": [
+      "walmart.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "category": "other",
+    "rules": [
+      "uber.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "doordash",
+    "name": "DoorDash",
+    "category": "other",
+    "rules": [
+      "doordash.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "deliveroo",
+    "name": "Deliveroo",
+    "category": "other",
+    "rules": [
+      "deliveroo.co.uk"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "instacart",
+    "name": "Instacart",
+    "category": "other",
+    "rules": [
+      "instacart.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "category": "other",
+    "rules": [
+      "coursera.org"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "category": "other",
+    "rules": [
+      "linkedin.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "category": "other",
+    "rules": [
+      "duolingo.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "proton",
+    "name": "Proton",
+    "category": "security",
+    "rules": [
+      "proton.me",
+      "protonmail.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "mullvad",
+    "name": "Mullvad",
+    "category": "security",
+    "rules": [
+      "mullvad.net"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "cloud",
+    "rules": [
+      "figma.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "category": "cloud",
+    "rules": [
+      "todoist.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "ko-fi",
+    "name": "Ko-fi",
+    "category": "publishing",
+    "rules": [
+      "ko-fi.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "spliiit",
+    "name": "Spliiit",
+    "category": "platforms",
+    "rules": [
+      "spliiit.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "sharesub",
+    "name": "Sharesub",
+    "category": "platforms",
+    "rules": [
+      "sharesub.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "diveedi",
+    "name": "Diveedi",
+    "category": "platforms",
+    "rules": [
+      "diveedi.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "gosplit",
+    "name": "GoSplit",
+    "category": "platforms",
+    "rules": [
+      "gosplit.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "sharingful",
+    "name": "Sharingful",
+    "category": "platforms",
+    "rules": [
+      "sharingful.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "gamsgo",
+    "name": "GamsGo",
+    "category": "platforms",
+    "rules": [
+      "gamsgo.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "coosub",
+    "name": "Coosub",
+    "category": "platforms",
+    "rules": [
+      "coosub.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "goingbus",
+    "name": "GoingBus",
+    "category": "platforms",
+    "rules": [
+      "goingbus.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  },
+  {
+    "id": "togetherprice",
+    "name": "Togetherprice",
+    "category": "platforms",
+    "rules": [
+      "togetherprice.com"
+    ],
+    "aliases": [],
+    "icon_status": "not-bundled-license-unverified"
+  }
+]

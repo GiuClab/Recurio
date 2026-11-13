@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.giuclab.recurio.BackupTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-13T19:27:16" hostname="ef9ca2a50e36" time="1.816">
+  <properties/>
+  <testcase name="restoreErrorsNeverSuggestCreatingAnExport" classname="io.github.giuclab.recurio.BackupTest" time="0.015"/>
+  <testcase name="emptyBackupRoundTrip" classname="io.github.giuclab.recurio.BackupTest" time="0.316"/>
+  <testcase name="fiveCharacterPasswordIsAcceptedAndOlderBackupsStillWork" classname="io.github.giuclab.recurio.BackupTest" time="0.265"/>
+  <testcase name="decryptsIndependentPythonCryptoFixture" classname="io.github.giuclab.recurio.BackupTest" time="0.121"/>
+  <testcase name="repeatedBackupsUseDifferentSaltAndIv" classname="io.github.giuclab.recurio.BackupTest" time="0.359"/>
+  <testcase name="backupRoundTripPreservesEveryPaymentFieldAndMultipleCurrencies" classname="io.github.giuclab.recurio.BackupTest" time="0.255"/>
+  <testcase name="wrongPasswordTamperingAndTruncationAreRejected" classname="io.github.giuclab.recurio.BackupTest" time="0.478"/>
+  <testcase name="invalidRecordDataAndDuplicateIdsAreRejectedBeforeExport" classname="io.github.giuclab.recurio.BackupTest" time="0.002"/>
+  <testcase name="backupReadSizeIsBounded" classname="io.github.giuclab.recurio.BackupTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

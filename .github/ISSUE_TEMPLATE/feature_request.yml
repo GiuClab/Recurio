@@ -1,0 +1,14 @@
+name: Suggestion / Suggerimento
+description: Suggest an improvement in English, Italiano, Deutsch or Français.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you like to improve? / Cosa vorresti migliorare?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: How would it help? / Come sarebbe utile?

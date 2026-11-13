@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.giuclab.recurio.CommunityTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-13T19:27:18" hostname="ef9ca2a50e36" time="0.001">
+  <properties/>
+  <testcase name="guideEndsWithCommunityAsItsSixthPage" classname="io.github.giuclab.recurio.CommunityTest" time="0.0"/>
+  <testcase name="linksPointToRealRepositoryAndNoInventedFdroidListing" classname="io.github.giuclab.recurio.CommunityTest" time="0.001"/>
+  <testcase name="communityAndShareTextAreLocalized" classname="io.github.giuclab.recurio.CommunityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

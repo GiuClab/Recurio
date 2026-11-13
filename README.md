@@ -1,0 +1,62 @@
+<div align="center">
+  <img src="assets/recurio-logo.webp" width="150" alt="Recurio logo">
+  <h1>Recurio</h1>
+  <p>Your payments, in one place — by GiuClab</p>
+
+[![Android](https://img.shields.io/badge/Android-8%2B-16875C)](#features)
+[![Stage](https://img.shields.io/badge/stage-0.1.0--alpha09-385AD0)](https://github.com/GiuClab/Recurio/releases)
+[![License](https://img.shields.io/badge/license-GPL--3.0--or--later-385AD0)](LICENSE)
+[![Android checks](https://github.com/GiuClab/Recurio/actions/workflows/android.yml/badge.svg)](https://github.com/GiuClab/Recurio/actions/workflows/android.yml)
+
+[Download previews](https://github.com/GiuClab/Recurio/releases) · [Feedback & suggestions](https://github.com/GiuClab/Recurio/issues/new/choose) · [Support on Ko-fi](https://ko-fi.com/giuclab/tip)
+
+[Italiano](docs/README.it.md) · [Deutsch](docs/README.de.md) · [Français](docs/README.fr.md)
+</div>
+
+Recurio is a free, open source Android payment planner with local reminders. **This is an alpha preview, not a stable release.** F-Droid publication is planned; no official listing exists yet. Current UI screenshots will be added after device verification; no mockup is presented as an app screenshot.
+
+## Features
+- 🗓 Add, edit, pause and delete payments with one-time, weekly, monthly, quarterly or yearly recurrence.
+- 💶 Calendar-month totals and next-12-month forecasts, separated by currency. No automatic exchange conversion or bank charge verification.
+- 🔗 Share a browser link to Recurio, paste it or select a service from the searchable 145-entry catalog. Editable name suggestions recognize domains and known product paths.
+- 🔔 Optional local reminders with 0–365 days of advance notice and chosen time. Singular/plural reminder text in all four languages. Android may delay notifications to save battery.
+- 🔐 Password-encrypted manual export and restore. Restore previews the record count and replaces existing payments only after confirmation.
+- 🌍 Automatic supported phone language on first install; otherwise an English chooser for English, Italian, German or French. Six-step guide, replayable in Settings.
+- 💬 GitHub feedback/suggestions, Ko-fi support, and Share/Copy download-page link. Sharing the app link does not share payments or personal data.
+
+## Privacy
+No Recurio account, backend, advertising, analytics, bank access or browser-cookie access. Live payment records stay in Android's private app storage, without extra database encryption. Automatic Android cloud/device backup is excluded. Uninstalling or clearing app data deletes records not exported manually.
+
+Website icons are enabled by default for new installs, with an explanation and an off switch before network requests. Existing explicit preferences are kept. Requests go directly to public HTTPS sites: sites/network infrastructure can see your IP and public icon/page requests, but saved subscription paths, prices, renewal dates and browser cookies are never sent. After backup restore, a popup asks whether to retrieve icons before new site requests start. GitHub and Copilot icons are bundled under MIT; other service logos are not bundled without verified redistribution terms. See [catalog and icon review](docs/CATALOG.it.md).
+
+Backup files use AES-256-GCM and PBKDF2-HMAC-SHA256. Minimum password: 5 characters; forgotten passwords cannot be recovered. Keep the file and password separately. The system file picker can save to a cloud provider if you choose one; that provider may sync the encrypted file. Backup excludes icons, Android grants and app preferences. See [backup format](docs/BACKUP.md).
+
+External GitHub and Ko-fi actions open the browser and follow those services' own privacy policies. No feedback is submitted automatically. F-Droid is marked as coming soon, with no invented app link.
+
+## Install and signing
+Download an APK from [GitHub Releases](https://github.com/GiuClab/Recurio/releases) and confirm installation in Android. Alpha09 uses the same debug preview certificate as alpha08 for upgrade compatibility. It is not a production signing identity. The private key is not in this repository. Establish and back up a production signing key before a stable distribution; F-Droid signing/reproducibility must also be planned. Export your records before moving to a differently signed build.
+
+The preview publication workflow attaches the exact locally verified, compatible APK using a checksum-identified Git blob; it separately runs source checks on GitHub. The workflow's newly generated debug APK has its own key and is not substituted for the compatible preview. See [publication details](distribution/RELEASE_NOTES.md).
+
+## Build and verification
+Use a FLOSS JDK 17, Android SDK platform 35 and Build Tools 35.0.0:
+
+```sh
+./gradlew testDebugUnitTest lintDebug assembleDebug
+```
+
+Output: `app/build/outputs/apk/debug/app-debug.apk`. Gradle wrapper checksum is pinned. Dependencies come from Google Maven, Maven Central and the Gradle Plugin Portal. No Play Services, Firebase or proprietary tracking SDKs.
+
+Local verification evidence is in [docs/verification](docs/verification/BUILD.md); GitHub Actions status is separate. Physical-device UI, notification/battery behavior and file-provider interoperability require device testing. No complete coverage or independent security audit is claimed.
+
+## Catalog, artwork and contribution
+Edit `catalog/services.json` and run `python3 tools/generate_catalog.py`. Unknown-domain labels are editable heuristics, not guaranteed brand identification. Do not commit private subscription links, backups, credentials or signing keys. Contributions should include relevant checks, translations and redistributable assets.
+
+The approved Recurio logo follows the GiuClab family style; provenance is in [assets/NOTICE.md](assets/NOTICE.md). Third-party marks remain with their owners; no affiliation is implied. Octicons MIT and the F-Droid logo GPL-3.0-or-later notices/source are included under `third_party/` and in the app. The F-Droid icon indicates planned distribution only.
+
+## License and support
+Copyright © 2026 GiuClab. Code and project artwork: GPL-3.0-or-later, except separately identified third-party assets. See [LICENSE](LICENSE).
+
+[Support Recurio on Ko-fi](https://ko-fi.com/giuclab/tip)
+
+Made with ❤️ by GiuClab
