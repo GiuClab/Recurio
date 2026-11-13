@@ -1,10 +1,13 @@
 # Recurio — by GiuClab
 Tutti i pagamenti, in un posto. Anteprima Android 8+, gratuita e open source, GPL-3.0-or-later.
 
+Scarica [Recurio-v1.0.apk](https://github.com/GiuClab/Recurio/releases/download/v1.0/Recurio-v1.0.apk). Le notifiche includono icona, importo e valuta. v1.0 è il nome del download: la versione interna e le scritte nell’app restano invariate. L’APK usa una firma debug diversa dalla precedente: se Android rifiuta l’aggiornamento, salva gli eventuali dati prima di disinstallare la vecchia app. [Dettagli](../distribution/DOWNLOAD_NOTES.md).
+
+
 ## Disponibile nella prima alpha
 Inserimento, modifica, sospensione ed eliminazione dei pagamenti; frequenze settimanali, mensili, trimestrali, annuali e una tantum. Totale del mese e previsione dei prossimi 12 mesi, separati per valuta. Ricezione dei link condivisi dal browser, catalogo di 145 voci di catalogo e apertura del link nel browser esterno.
 
-Promemoria facoltativi con anticipo da 0 a 365 giorni e orario scelto. Android può ritardarli: non viene richiesta l’autorizzazione per allarmi esatti. Consenti le notifiche e verifica il funzionamento sul telefono. L’arresto forzato blocca gli avvisi finché non riapri l’app.
+Promemoria facoltativi con importo, valuta e logo del servizio già disponibile sul telefono, oppure iniziale del pagamento. Anticipo da 0 a 365 giorni e orario scelto. La ricezione di un promemoria non avvia richieste ai siti. Android può ritardarli: non viene richiesta l’autorizzazione per allarmi esatti. Consenti le notifiche e verifica il funzionamento sul telefono. L’arresto forzato blocca gli avvisi finché non riapri l’app.
 
 ## Primo avvio e trasferimento dati
 Se il telefono usa italiano, inglese, tedesco o francese, Recurio parte direttamente in quella lingua. Per le altre lingue appare la scelta iniziale in inglese. Seguono sei passaggi di guida e la spiegazione facoltativa del permesso notifiche. Gli utenti delle alpha precedenti mantengono la scelta già salvata. La guida è sempre nelle impostazioni.

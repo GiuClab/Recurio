@@ -1,3 +1,8 @@
+# v1.0 — GitHub download label
+
+- APK download renamed to `Recurio-v1.0.apk`; internal app version, screens and text unchanged.
+- Payment notifications include localized amount, explicit currency and a bundled/cached service image, with a payment initial as fallback. No website request is started when a reminder arrives.
+
 # 0.1.0-alpha09
 
 - Logo approvato integrato nella launcher Android adattiva, nella home, nella guida e nelle informazioni.

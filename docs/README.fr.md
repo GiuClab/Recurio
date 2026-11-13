@@ -1,10 +1,13 @@
 # Recurio — by GiuClab
 Tous vos paiements au même endroit. Aperçu gratuit et open source pour Android 8+, GPL-3.0-or-later.
 
+Télécharger [Recurio-v1.0.apk](https://github.com/GiuClab/Recurio/releases/download/v1.0/Recurio-v1.0.apk). Les notifications affichent icône, montant et devise. v1.0 désigne le téléchargement ; version interne et textes de l’application restent inchangés. La signature de débogage diffère de celle de l’ancien APK. Si Android refuse la mise à jour, sauvegardez les données avant de désinstaller l’ancienne application. [Détails](../distribution/DOWNLOAD_NOTES.md).
+
+
 ## Fonctions
 Ajout, modification, suspension et suppression des paiements. Fréquences ponctuelle, hebdomadaire, mensuelle, trimestrielle et annuelle. Total du mois et prévision sur 12 mois, séparés par devise. Partage de liens du navigateur, reconnaissance d’145 entrées du catalogue par domaine et ouverture dans le navigateur externe.
 
-Rappels facultatifs avec un délai de 0 à 365 jours et une heure choisie. Android peut les retarder ; cet aperçu ne demande pas l’autorisation d’alarmes exactes. Autorisez les notifications et testez sur votre téléphone. Après un arrêt forcé, rouvrez l’application.
+Rappels facultatifs avec montant, devise et icône du service déjà disponible sur le téléphone, ou initiale du paiement. Délai de 0 à 365 jours et heure choisie. La réception d’un rappel ne déclenche aucune requête vers les sites. Android peut les retarder ; cet aperçu ne demande pas l’autorisation d’alarmes exactes. Autorisez les notifications et testez sur votre téléphone. Après un arrêt forcé, rouvrez l’application.
 
 ## Premier lancement et sauvegarde
 Si la langue du téléphone est prise en charge (en/it/de/fr), Recurio l’utilise directement. Sinon un sélecteur en anglais apparaît. Un guide de six étapes et une explication facultative des notifications suivent. Les utilisateurs des anciennes alpha gardent leur choix. Le guide reste disponible dans les paramètres.

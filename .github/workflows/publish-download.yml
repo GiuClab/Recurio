@@ -1,0 +1,61 @@
+name: Publish verified APK
+on:
+  push:
+    branches: [main]
+    paths: [distribution/download.json]
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify build provenance and download exact APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          manifest=distribution/download.json
+          run=$(jq -r .run_id "$manifest")
+          artifact=$(jq -r .artifact_id "$manifest")
+          source=$(jq -r .source_commit "$manifest")
+          expected=$(jq -r .sha256 "$manifest")
+          filename=$(jq -r .filename "$manifest")
+          [[ "$run" =~ ^[0-9]+$ && "$artifact" =~ ^[0-9]+$ ]]
+          [[ "$source" =~ ^[a-f0-9]{40}$ && "$expected" =~ ^[a-f0-9]{64}$ ]]
+          [[ "$filename" =~ ^Recurio-[A-Za-z0-9.-]+\.apk$ ]]
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run" > "$RUNNER_TEMP/run.json"
+          jq -e --arg source "$source" '.conclusion == "success" and .head_sha == $source' "$RUNNER_TEMP/run.json"
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/$artifact" > "$RUNNER_TEMP/artifact.json"
+          jq -e --argjson run "$run" --arg source "$source" '.workflow_run.id == $run and .workflow_run.head_sha == $source and .expired == false' "$RUNNER_TEMP/artifact.json"
+          git diff --exit-code "$source" HEAD -- app build.gradle.kts settings.gradle.kts gradle.properties gradle catalog
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/$artifact/zip" > "$RUNNER_TEMP/apk.zip"
+          unzip -p "$RUNNER_TEMP/apk.zip" app-debug.apk > "$filename"
+          printf '%s  %s\n' "$expected" "$filename" > SHA256SUMS.txt
+          sha256sum --check SHA256SUMS.txt
+          unzip -t "$filename" > /dev/null
+      - name: Publish APK and checksum
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          filename=$(jq -r .filename distribution/download.json)
+          tag=$(jq -r .tag distribution/download.json)
+          title=$(jq -r .title distribution/download.json)
+          [[ "$tag" =~ ^v[0-9]+\.[0-9]+(\.[0-9]+)?$ ]]
+          if gh release view "$tag" > /dev/null 2>&1; then
+            mkdir existing
+            gh release download "$tag" --pattern "$filename" --dir existing
+            cmp "$filename" "existing/$filename"
+          else
+            gh release create "$tag" "$filename" SHA256SUMS.txt --target "$GITHUB_SHA" --latest --title "$title" --notes-file distribution/DOWNLOAD_NOTES.md
+          fi

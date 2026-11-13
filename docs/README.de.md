@@ -1,10 +1,13 @@
 # Recurio — by GiuClab
 Alle Zahlungen an einem Ort. Kostenlose Open-Source-Vorschau für Android 8+, GPL-3.0-or-later.
 
+Download: [Recurio-v1.0.apk](https://github.com/GiuClab/Recurio/releases/download/v1.0/Recurio-v1.0.apk). Benachrichtigungen enthalten Dienstsymbol, Betrag und Währung. v1.0 bezeichnet den Download; interne Version und App-Texte bleiben unverändert. Die Debug-Signatur unterscheidet sich von der bisherigen APK. Falls Android das Update ablehnt, vorhandene Daten vor der Deinstallation sichern. [Details](../distribution/DOWNLOAD_NOTES.md).
+
+
 ## Funktionen
 Zahlungen hinzufügen, bearbeiten, pausieren und löschen. Einmalige, wöchentliche, monatliche, vierteljährliche und jährliche Termine. Monatssumme und Vorschau für 12 Monate, getrennt nach Währung. Browser-Links teilen, 145 Katalogeinträge anhand ihrer Domain erkennen und Links im externen Browser öffnen.
 
-Optionale Erinnerungen mit 0–365 Tagen Vorlauf und gewählter Uhrzeit. Android kann sie verzögern; diese Vorschau fordert keine Berechtigung für exakte Alarme an. Benachrichtigungen erlauben und auf dem Gerät testen. Nach erzwungenem Stopp muss die App wieder geöffnet werden.
+Optionale Erinnerungen mit Betrag, Währung und einem lokal verfügbaren Dienstsymbol oder dem Anfangsbuchstaben der Zahlung. 0–365 Tage Vorlauf und gewählte Uhrzeit. Beim Empfang einer Erinnerung werden keine Website-Anfragen gestartet. Android kann sie verzögern; diese Vorschau fordert keine Berechtigung für exakte Alarme an. Benachrichtigungen erlauben und auf dem Gerät testen. Nach erzwungenem Stopp muss die App wieder geöffnet werden.
 
 ## Erster Start und Sicherung
 Bei unterstützter Telefonsprache (en/it/de/fr) startet die App direkt in dieser Sprache. Sonst erscheint eine englische Sprachauswahl. Eine sechsteilige Anleitung und eine optionale Erklärung der Benachrichtigungsberechtigung folgen. Bestehende Alpha-Nutzer behalten ihre Sprache. Die Anleitung ist in den Einstellungen verfügbar.
