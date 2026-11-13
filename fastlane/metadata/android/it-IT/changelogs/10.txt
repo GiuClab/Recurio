@@ -1,2 +1,0 @@
-1.0.0
-I promemoria mostrano importo, valuta e logo del servizio o iniziale del pagamento.

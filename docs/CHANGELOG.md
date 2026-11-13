@@ -1,9 +1,6 @@
-# 1.0.0 — prepared, not yet published
+# Unreleased
 
-- Reminders include localized amount, explicit currency and bundled/cached service image or payment initial.
-- In-app version labels use BuildConfig; removed preview branding.
-- Production signing workflow produces Recurio-1.0.0.apk and verifies the expected certificate.
-- Signing setup, device checks and stable publication remain required.
+- Payment notifications include localized amount, explicit currency and a bundled/cached service image, with a payment initial as fallback. No website request is started when a reminder arrives.
 
 # 0.1.0-alpha09
 

@@ -153,7 +153,7 @@ private val words = mapOf(
  "support" to listOf("Support the project", "Sostieni il progetto", "Projekt unterstützen", "Soutenir le projet"),
  "about" to listOf("About Recurio", "Informazioni su Recurio", "Über Recurio", "À propos de Recurio"),
  "recognize" to listOf("The domain suggests this service. Check the name and link; price and renewal date must be entered manually.", "Il dominio suggerisce questo servizio. Verifica nome e link; prezzo e rinnovo vanno inseriti manualmente.", "Die Domain deutet auf diesen Dienst hin. Prüfe Name und Link; Preis und Verlängerung sind manuell einzugeben.", "Le domaine suggère ce service. Vérifiez le nom et le lien ; prix et renouvellement sont à saisir manuellement."),
- "appInfo" to listOf("Android 8+ • GPL-3.0-or-later", "Android 8+ • GPL-3.0-or-later", "Android 8+ • GPL-3.0-or-later", "Android 8+ • GPL-3.0-or-later"),
+ "alpha" to listOf("Preview • Android 8+ • GPL-3.0-or-later", "Anteprima • Android 8+ • GPL-3.0-or-later", "Vorschau • Android 8+ • GPL-3.0-or-later", "Aperçu • Android 8+ • GPL-3.0-or-later"),
  "notice" to listOf("Renewal reminder", "Promemoria rinnovo", "Verlängerungserinnerung", "Rappel de renouvellement")
 )
 fun tr(lang: String, key: String): String = words[key]?.get(languages.keys.indexOf(lang).coerceAtLeast(0)) ?: key

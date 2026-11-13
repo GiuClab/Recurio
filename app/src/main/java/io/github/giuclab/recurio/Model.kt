@@ -137,6 +137,3 @@ fun orderedPayments(payments: List<Payment>, order: PaymentOrder, today: LocalDa
 fun isSuggestedServiceName(name: String, link: String): Boolean = name.isBlank() || name == Catalog.suggestedName(link) || name.equals(Catalog.host(link), ignoreCase=true)
 fun nameAfterLinkEdit(currentName: String, newLink: String, manuallyEdited: Boolean): String =
  if(manuallyEdited) currentName else Catalog.suggestedName(newLink) ?: currentName
-
-fun money(cents: Long, currency: String, lang: String): String = java.text.NumberFormat.getCurrencyInstance(java.util.Locale.forLanguageTag(lang)).apply { this.currency = java.util.Currency.getInstance(currency); minimumFractionDigits = this.currency.defaultFractionDigits; maximumFractionDigits = this.currency.defaultFractionDigits }.format(java.math.BigDecimal.valueOf(cents, 2))
-fun reminderBody(payment: Payment, lang: String): String = "${money(payment.cents, payment.currency, lang)} · ${payment.currency} — ${tr(lang, "notice")}"

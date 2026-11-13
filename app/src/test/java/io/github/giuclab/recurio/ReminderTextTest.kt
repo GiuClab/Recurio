@@ -11,7 +11,7 @@ class ReminderTextTest {
   for (lang in listOf("en", "it", "de", "fr")) {
    val p = payment("CHF", 1290)
    val text = reminderBody(p, lang)
-   assertTrue(text.contains(money(1290, "CHF", lang)))
+   assertTrue(text.contains(reminderAmount(p, lang)))
    assertTrue(text.contains("CHF"))
    assertTrue(text.endsWith(tr(lang, "notice")))
   }

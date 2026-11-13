@@ -1,18 +1,18 @@
-# Recurio 1.0.0
+Recurio's first public GitHub preview — free and open source, by GiuClab.
 
-Android payment planner, free and open source, by GiuClab.
-
-- Payment reminders now include the amount, currency and service image.
-- Notifications use bundled or cached service logos, with the payment initial when a logo is unavailable.
-- No website requests are made when a reminder arrives. Hidden lock-screen content shows only Recurio.
-- Local recurring payments, calendar-month totals, 12-month forecasts, service catalog and encrypted manual backup/restore.
+- New approved GiuClab logo, adaptive Android launcher and matching in-app artwork.
+- Six-page introduction ending with GitHub feedback, F-Droid availability status and Ko-fi support.
+- Feedback, suggestions, project support and Share/Copy download link in Settings.
 - English, Italiano, Deutsch and Français.
+- Includes the existing payment catalog, reminders and encrypted backup/restore.
 
-Install `Recurio-1.0.0.apk` on Android 8 or later. `SHA256SUMS.txt` contains the APK checksum.
+This is an alpha, signed with the existing development preview key so it can update alpha08 without uninstalling. It is not the production signing identity. Keep an exported backup before moving to a differently signed production/F-Droid build.
 
-If this production build uses a different signing certificate from the alpha, export an encrypted backup before uninstalling the alpha, then install this release and restore the backup. Keep the backup password: it cannot be recovered.
+The attached APK was built and checked locally; the publication workflow separately runs source checks before attaching those exact bytes. No private signing key is stored in this repository. The workflow's independently built debug APK is not substituted for the attached compatible APK.
 
-Android may delay reminders to save battery. No bank connection, account, advertising or analytics. Website icons are optional. F-Droid publication is planned; no listing exists yet.
+No F-Droid listing exists yet. App runtime UI/file-provider testing is still being carried out on user devices; local automated results do not imply complete device coverage.
+
+Install: download the APK, open it on Android 8+, and confirm installation. SHA256SUMS.txt contains the file hash.
 
 Feedback: https://github.com/GiuClab/Recurio/issues/new/choose
 Support: https://ko-fi.com/giuclab/tip

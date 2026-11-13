@@ -1,2 +1,0 @@
-1.0.0
-Erinnerungen zeigen Betrag, Währung und Dienstsymbol oder Anfangsbuchstaben.
